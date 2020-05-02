@@ -7,6 +7,7 @@
   "scripts": {
     "test": "jest",
     "visualise": "npm test -- -- . --visualise",
+    "watch": "npm test -- --watch",
     "build": "rollup -c rollup.config.js",
     "prepublish": "npm run build",
     "dev": "nodemon -w src/ -x npm run build"
@@ -34,13 +35,11 @@
     "@testing-library/react": "^9.5.0",
     "babel-jest": "^25.1.0",
     "babel-plugin-styled-components": "^1.10.0",
-    "babel-polyfill": "^6.26.0",
     "babel-preset-react": "^6.24.1",
     "enzyme": "^3.11.0",
     "govuk-react": "^0.7.1",
     "jest": "^25.1.0",
     "moment": "^2.24.0",
-    "node-run-cmd": "^1.0.1",
     "nodemon": "^2.0.3",
     "react": "^16.8.6",
     "react-addons-test-utils": "^15.6.2",
